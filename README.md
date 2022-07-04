@@ -27,6 +27,8 @@
         "node index.js" or
         "node server.mjs"
 
+- index.js can use **dirname. but server.mjs an not.. ES6 doesn't have **dirname..
+
 # Callbcak Hell
 
       fs.readFile("txt/start.txt", "utf-8", (err, data1) => {
