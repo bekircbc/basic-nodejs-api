@@ -20,6 +20,13 @@
       console.log("Listenning to requests on port 8000");
       });
 
+# to start the server
+
+- write on command window..
+
+        "node index.js" or
+        "node server.mjs"
+
 # Callbcak Hell
 
       fs.readFile("txt/start.txt", "utf-8", (err, data1) => {
