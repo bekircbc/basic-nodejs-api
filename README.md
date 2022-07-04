@@ -33,3 +33,13 @@
       });
       });
       });
+
+# Reading and Writing file
+
+      const input = fs.readFileSync("txt/input.txt", "utf-8");
+      console.log(input);
+
+      fs.writeFile("txt/final.txt", `${data2} ${data3}`, "utf-8", (err) => {
+      if (err) throw err;
+      console.log("Your file has been saved :D");
+      });
